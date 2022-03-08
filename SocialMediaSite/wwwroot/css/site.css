@@ -9,19 +9,23 @@ a.navbar-brand {
 
 /* Provide sufficient contrast against white background */
 a {
-    color: #7F00FF;
+    color: #C4A484;
+}
+
+a:hover {
+    color: #b48c64;
 }
 
 .btn-primary {
     color: #fff;
     background-color: #2a2a2a;
-    border-color: #7F00FF;
+    border-color: #c5a687;
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #7F00FF;
-    border-color: #7F00FF;
+    background-color: #c5a687;
+    border-color: #c5a687;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -42,14 +46,14 @@ html {
 }
 
 .border-top {
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #c5a687;
 }
 .border-bottom {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #c5a687;
 }
 
 .box-shadow {
-    box-shadow: 0 .25rem .75rem #7F00FF;
+    box-shadow: 0 .25rem .75rem #C4A484;
 }
 
 button.accept-policy {
@@ -65,10 +69,11 @@ html {
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
-  background-color: #1a1a1a;
-  color: white;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-color: #1a1a1a;
+    background-image: url('https://cdn.pixabay.com/photo/2021/07/01/23/42/wallpaper-6380532_1280.jpg');
+    color: white;
 }
 .footer {
   position: absolute;
@@ -81,4 +86,13 @@ body {
 nav {
     background-color: #1a1a1a;
     color: white;
+}
+
+.border-brown {
+    border: 1px solid #c5a687;
+}
+
+div {
+    background-color: #1a1a1a;
+    height: 100%;
 }
